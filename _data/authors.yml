@@ -1,0 +1,17 @@
+Fredrik Johansen:
+  name: "Fredrik Johansen"
+  bio: "I'm, Fredrik Johansen. Just a normal human being."
+  avatar: "https://avatars.githubusercontent.com/u/31306224?s=460&u=d3bf0bdd7b29cc137a3c74472b32726a41c8b8e7&v=4"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:fredrik1206@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://fredrikj31.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/fredrikj31"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/fredrikj31"
