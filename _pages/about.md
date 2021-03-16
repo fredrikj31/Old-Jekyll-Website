@@ -1,9 +1,10 @@
 ---
 permalink: /about/
 title: "About Me"
+classes: wide
 ---
 
-![image-left](https://media4.giphy.com/media/LW5vBvAb48Oe9OoEKT/source.gif)
+<img src="https://media4.giphy.com/media/LW5vBvAb48Oe9OoEKT/source.gif" alt="Girl in a jacket" width="325">{: .align-right}
 
 Hello There :wave:
 
