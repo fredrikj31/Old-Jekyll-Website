@@ -68,6 +68,3 @@ This is my website hosted on proudly hosted on Github. But as said I like to tea
 # Latest Blog Posts
 
 {% include_relative /assets/components/latestPosts.html %}
-
-
-<script data-ad-client="ca-pub-9857553564889255" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
