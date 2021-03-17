@@ -4,9 +4,9 @@ title: "About Me"
 classes: wide
 ---
 
-<img src="https://media4.giphy.com/media/LW5vBvAb48Oe9OoEKT/source.gif" alt="Girl in a jacket" width="325">{: .align-right}
-
 Hello There :wave:
+
+<img src="https://media4.giphy.com/media/LW5vBvAb48Oe9OoEKT/source.gif" alt="Girl in a jacket" width="325">{: .align-right}
 
 As said a couple of times on the home page, my name is Fredrik Johansen and I’m a junior developer. I’m currently studying programming and mathematics in a high school located in Copenhagen, Denmark. My passion and hopefully my near future livelihood is programming, and therefore have I been coding for about 7 years.
 
