@@ -35,9 +35,35 @@ projects:
 
 ---
 
+{% assign todayDateHej = "2021-06-11" %}
+
+{% assign currentYear = todayDateHej | date: "%Y" %}
+{% assign birthdayYear = "2003-06-12" | date: "%Y" %}
+
+{% assign currentMonth = todayDateHej | date: "%m" %}
+{% assign birthdayMonth = "2003-06-12" | date: "%m" %}
+
+{% assign currentDay = todayDateHej | date: "%d" %}
+{% assign birthdayDay = "2003-06-12" | date: "%d" %}
+
+<!-- Checking if birthday month is greater than current month -->
+{% if currentMonth > birthdayMonth %}
+{{ assign age = currentYear | minus: birthdayYear }}
+{% elsif currentMonth == birthdayMonth %}
+{% if currentDay > birthdayDay %}
+{{ assign age = currentYear | minus: birthdayYear }}
+{% elsif currentDay == birthdayDay %}
+{{ assign age = currentYear | minus: birthdayYear }}
+{% else %}
+{{ assign age = currentYear | minus: birthdayYear | minus: 1 }}
+{% endif %}
+{% else %}
+{{ assign age = currentYear | minus: birthdayYear | minus: 1 }}
+{% endif %}
+
 <h1>Welcome to my website!</h1>
 <img src="https://avatars.githubusercontent.com/u/31306224?s=460&u=d3bf0bdd7b29cc137a3c74472b32726a41c8b8e7&v=4" width="200" height="200" style="border-radius: 50%;" />{: .align-right}
-{{ site.description }} 
+Fredrik Johansen is a {{ age }} years old software developer who likes to learn and teach code. He writes blog posts about his new findings and code-related things.
 This is my website hosted on proudly hosted on Github. But as said I like to teach other people coding, because I think coding will be the magic of the future. Follow my social medias, where I will post coding-related stuff.
 
 <br>
