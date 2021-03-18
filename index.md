@@ -35,7 +35,7 @@ projects:
 
 ---
 
-{% assign todayDateHej = "2021-06-11" %}
+{% assign todayDateHej = site.page %}
 
 {% assign currentYear = todayDateHej | date: "%Y" %}
 {% assign birthdayYear = "2003-06-12" | date: "%Y" %}
