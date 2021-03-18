@@ -37,8 +37,8 @@ projects:
 
 <h1>Welcome to my website!</h1>
 <img src="https://avatars.githubusercontent.com/u/31306224?s=460&u=d3bf0bdd7b29cc137a3c74472b32726a41c8b8e7&v=4" width="200" height="200" style="border-radius: 50%;" />{: .align-right}
-Fredrik Johansen is a <div id="age"></div> years old software developer who likes to learn and teach code. He writes blog posts about his new findings and code-related things.
-This is my website hosted on proudly hosted on Github. But as said I like to teach other people coding, because I think coding will be the magic of the future. Follow my social medias, where I will post coding-related stuff.
+<p>Fredrik Johansen is a <script>document.write(calculateAge("06/12/2003"))</script> years old software developer who likes to learn and teach code. He writes blog posts about his new findings and code-related things.
+This is my website hosted on proudly hosted on Github. But as said I like to teach other people coding, because I think coding will be the magic of the future. Follow my social medias, where I will post coding-related stuff.</p>
 
 <br>
 
@@ -68,20 +68,3 @@ This is my website hosted on proudly hosted on Github. But as said I like to tea
 # Latest Blog Posts
 
 {% include_relative /assets/components/latestPosts.html %}
-
-<script>
-function calculateAge (birthDate, otherDate) {
-    birthDate = new Date(birthDate);
-    otherDate = new Date(otherDate);
-
-    var years = (otherDate.getFullYear() - birthDate.getFullYear());
-
-    if (otherDate.getMonth() < birthDate.getMonth() || 
-        otherDate.getMonth() == birthDate.getMonth() && otherDate.getDate() < birthDate.getDate()) {
-        years--;
-    }
-
-    return years;
-}
-document.getElementById("age").innerHTML = calculateAge("06/12/2003", Date.Now());
-</script>
