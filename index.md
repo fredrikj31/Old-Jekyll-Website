@@ -6,17 +6,17 @@ classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/landscape.jpg
+  overlay_image: https://images3.alphacoders.com/102/102609.jpg
   caption: "Photo credit: [**Wall Alphacoders**](https://wall.alphacoders.com/big.php?i=102609)"
 excerpt: "Welcome to my website. Here you can find some of the projects that I have over the last couple of years. Here I also host my blog, where you can learn some of the things that I have learned so far."
 
 
 projects:
-  - image_path: https://wallpaperaccess.com/full/170249.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/portfolio/testProject1/"
+  - image_path: https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/105224808/original/a1120bd0adc1f749dd93473fb80a50fdc5984507/create-bot-to-scrape-data-from-websites.jpg
+    alt: "Crane controlled by a programmer, grabbing robots head"
+    title: "Lectio Scraper"
+    excerpt: "A python library to scrape data out of Lectio, which is a Danish school portal."
+    url: "/portfolio/LectioScraper/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: https://i.pinimg.com/originals/3e/2a/f6/3e2af664e061013a3d05aa99fa20c1d4.jpg
